@@ -72,16 +72,19 @@ footer{
     width: 100%;
     display: block;
   }
-}
 
-@media screen and (max-width:768px){
   .step-box{
-    margin: inherit;
+    margin: 20px auto;
+    width: 90%
   }
-}
 
-@media screen and (max-width:768px){
   .step-box:last-child{
     margin-right: auto;
   }
+
+  .text{
+      font-size: 12px;
+  }
+
+
 }
